@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Boutique Assistant", "Boutique Assistant\Boutique Assistant.vbproj", "{118B8320-56A9-40DB-8604-3EC846AC96EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{118B8320-56A9-40DB-8604-3EC846AC96EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118B8320-56A9-40DB-8604-3EC846AC96EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118B8320-56A9-40DB-8604-3EC846AC96EF}.Debug|x86.ActiveCfg = Debug|x86
+		{118B8320-56A9-40DB-8604-3EC846AC96EF}.Debug|x86.Build.0 = Debug|x86
+		{118B8320-56A9-40DB-8604-3EC846AC96EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118B8320-56A9-40DB-8604-3EC846AC96EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118B8320-56A9-40DB-8604-3EC846AC96EF}.Release|x86.ActiveCfg = Release|x86
+		{118B8320-56A9-40DB-8604-3EC846AC96EF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {228AA274-16F9-4AAA-B42A-B4EA6B00651F}
+	EndGlobalSection
+EndGlobal

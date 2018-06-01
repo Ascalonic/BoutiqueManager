@@ -1,0 +1,28 @@
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\bin\x86\Debug\Boutique Assistant.exe.config
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\bin\x86\Debug\Boutique Assistant.exe
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\bin\x86\Debug\Boutique Assistant.pdb
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\bin\x86\Debug\Boutique Assistant.xml
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\bin\x86\Debug\System.Data.SQLite.pdb
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\bin\x86\Debug\System.Data.SQLite.dll.config
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique Assistant.vbprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.Add_Cloth.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.Add_Customer.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.AddInfo.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.ClothInfo.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.CustomerInfo.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.Edit_Cloth.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.EditCustomer.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.EditMeasurements.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.Form1.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.Measurements.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.Resources.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.PrintBill.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.ViewCloths.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique Assistant.vbproj.GenerateResource.Cache
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique Assistant.vbproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique Assistant.exe
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique Assistant.xml
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique Assistant.pdb
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.AppAdmin.resources
+C:\Users\HP\Documents\Visual Studio 2017\Projects\Boutique Assistant\Boutique Assistant\obj\x86\Debug\Boutique_Assistant.PrintMeasure.resources

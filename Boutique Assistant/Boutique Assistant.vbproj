@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{118B8320-56A9-40DB-8604-3EC846AC96EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Boutique_Assistant.My.MyApplication</StartupObject>
+    <RootNamespace>Boutique_Assistant</RootNamespace>
+    <AssemblyName>Boutique Assistant</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Boutique Assistant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Boutique Assistant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>boutique_ZlN_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Boutique Assistant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Boutique Assistant.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\System.Data.SQLite\2012\bin\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add Cloth.Designer.vb">
+      <DependentUpon>Add Cloth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Cloth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Customer.Designer.vb">
+      <DependentUpon>Add Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddInfo.Designer.vb">
+      <DependentUpon>AddInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdditionalInfo.vb" />
+    <Compile Include="AppAdmin.Designer.vb">
+      <DependentUpon>AppAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClothInfo.Designer.vb">
+      <DependentUpon>ClothInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClothInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClothWork.vb" />
+    <Compile Include="ClothWorkAdapter.vb" />
+    <Compile Include="Customer.vb" />
+    <Compile Include="CustomerAdapter.vb" />
+    <Compile Include="CustomerInfo.Designer.vb">
+      <DependentUpon>CustomerInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Edit Cloth.Designer.vb">
+      <DependentUpon>Edit Cloth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit Cloth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCustomer.Designer.vb">
+      <DependentUpon>EditCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMeasurements.Designer.vb">
+      <DependentUpon>EditMeasurements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditMeasurements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measure.vb" />
+    <Compile Include="MeasurementAdapter.vb" />
+    <Compile Include="Measurements.Designer.vb">
+      <DependentUpon>Measurements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Measurements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PrintBill.Designer.vb">
+      <DependentUpon>PrintBill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PrintBill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintMeasure.Designer.vb">
+      <DependentUpon>PrintMeasure.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PrintMeasure.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="ViewCloths.Designer.vb">
+      <DependentUpon>ViewCloths.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCloths.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Add Cloth.resx">
+      <DependentUpon>Add Cloth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Customer.resx">
+      <DependentUpon>Add Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInfo.resx">
+      <DependentUpon>AddInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppAdmin.resx">
+      <DependentUpon>AppAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClothInfo.resx">
+      <DependentUpon>ClothInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerInfo.resx">
+      <DependentUpon>CustomerInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit Cloth.resx">
+      <DependentUpon>Edit Cloth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCustomer.resx">
+      <DependentUpon>EditCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMeasurements.resx">
+      <DependentUpon>EditMeasurements.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measurements.resx">
+      <DependentUpon>Measurements.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintBill.resx">
+      <DependentUpon>PrintBill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintMeasure.resx">
+      <DependentUpon>PrintMeasure.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCloths.resx">
+      <DependentUpon>ViewCloths.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rsx\edit_cust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rsx\delete_cust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rsx\add_cust_big.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rsx\disp_all_cust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rsx\add_cust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rsx\view_works.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rsx\pending.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rsx\ongoing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rsx\completed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rsx\delivered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rsx\Chart.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\rsx\settings.png" />
+    <None Include="bin\Debug\rsx\print.png" />
+    <Content Include="boutique_ZlN_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
